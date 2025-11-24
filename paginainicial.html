@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chocolate</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7f3ef;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            color: #4a2c2a;
+        }
+
+        .banner-chocolate {
+            width: 100%;
+            background: linear-gradient(135deg, #4a2c2a, #7a4c40);
+            padding: 20px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+        }
+
+        .banner-chocolate img {
+            width: 80px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .texto-banner {
+            font-size: 2.5rem;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+
+        .caixinha1 {
+            background-color: white;
+            width: 80%;
+            max-width: 800px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            margin-top: 30px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .sobre {
+            margin-top: 30px;
+            font-size: 1.3rem;
+            background-color: #ffffff;
+            padding: 15px 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .opções {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        .opções div {
+            background-color: #7a4c40;
+            padding: 12px 20px;
+            border-radius: 10px;
+            transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+
+        .opções div:hover {
+            transform: scale(1.05);
+            background-color: #5c3932;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner-chocolate">
+        <img src="imagems/chocolate mini imagem.png" alt="Imagem de chocolate" />
+        <span class="texto-banner">CHOCOLATE</span>
+    </div>
+
+    <div class="caixinha1">
+        <img src="imagems/Chocolate2.png" alt="Chocolate" style="width:100px; float:right; margin-left:15px; border-radius:10px;">
+        <h3>O que é chocolate?</h3>
+        <p>
+            Chocolate é um produto alimentício derivado dos grãos torrados e moídos da árvore do cacau,
+            misturado com outros ingredientes como açúcar e leite. Sua composição varia de acordo com a quantidade de cacau,
+            influenciando no sabor e na textura. Pode ser consumido em forma sólida, líquida ou em pasta.
+        </p>
+    </div>
+
+    <div class="sobre">
+        <p>Deseja conhecer algumas receitas com chocolate? Temos algumas disponíveis:</p>
+    </div>
+
+    <div class="opções">
+        <div class="Brownie"><a href="Brownie.html">Brownie</a></div>
+        <div class="Cookie"><a href="Cookie.html">Cookie</a></div>
+    </div>
+</body>
+</html>
